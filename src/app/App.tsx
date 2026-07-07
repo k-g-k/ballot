@@ -16,6 +16,7 @@ import ConceptG from "./components/concept-g";
 import ConceptH from "./components/concept-h";
 import BallotQuestions from "./components/ballot-questions";
 import RentControlAlt from "./components/rent-control-alt";
+import TaxRebate62F from "./components/tax-rebate-62f";
 
 // Sticky disclaimer shown on certain prototypes; content scrolls under it.
 function DisclaimerBar({ children }: { children: ReactNode }) {
@@ -72,6 +73,13 @@ const PROTOTYPES: Prototype[] = [
     label: "Rent Control",
     group: "ballot-questions",
     element: <RentControlAlt />,
+  },
+  {
+    id: "BQ3",
+    path: "ballotQuestions/tax-rebate-62f",
+    label: "62F Tax Rebate",
+    group: "ballot-questions",
+    element: <TaxRebate62F />,
   },
 ];
 

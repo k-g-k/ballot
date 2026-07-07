@@ -45,9 +45,10 @@ const QUESTIONS_2026: BallotQuestion[] = [
       "Create a fund for state money, titled the Nature for All Fund, that would be used to further efforts of nature conservation",
   },
   {
-    title: "State Tax Revenue Limit",
+    title: "State Tax Revenue Limit (Chapter 62F Reform)",
     description:
-      "Change the limit of how much revenue the state can collect in a given year",
+      "Recalculate the Chapter 62F tax-revenue cap from actual collections and count 2022 surtax revenue, so automatic taxpayer refunds are triggered more often",
+    href: "/ballotQuestions/tax-rebate-62f",
   },
   {
     title: "Rollback Marijuana Legalization",
